@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/admin_task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="назва задачі"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />
+
+    <!-- android:layout_marginTop="5dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    -->
+    <TextView
+        android:id="@+id/admin_task_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/admin_task_user"
+        android:text="опис задачі" />
+
+    <TextView
+        android:id="@+id/admin_task_date_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_task_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/admin_task_end_label"
+        android:layout_toRightOf="@+id/admin_task_end_label"
+        android:text="(термін)"
+        android:textColor="@color/colorTaskEnd" />
+
+    <TextView
+        android:id="@+id/admin_task_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="пріоритет" />
+
+    <TextView
+        android:id="@+id/admin_task_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:paddingLeft="5dp"
+        android:text="користувач"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/admin_task_end_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/admin_task_date_end"
+        android:layout_alignBottom="@+id/admin_task_date_end"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Виконати до" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/admin_task_date_end"
+        android:text="Відповідальний:" />
+
+</RelativeLayout>

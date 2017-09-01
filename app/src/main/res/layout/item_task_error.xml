@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/error_task_user_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Користувач: "
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/error_task_user_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/error_task_user_label"
+        android:layout_toRightOf="@+id/error_task_user_label"
+        android:text="користувач"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/error_task_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/error_task_user_label"
+        android:layout_marginTop="5dp"
+        android:text="Назва задачі:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/error_task_name_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/error_task_name_label"
+        android:layout_marginTop="2dp"
+        android:text="назва" />
+
+    <TextView
+        android:id="@+id/error_task_problem_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/error_task_name_show"
+        android:layout_marginTop="5dp"
+        android:text="Опис проблеми"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/error_task_problem_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/error_task_problem_label"
+        android:layout_marginTop="3dp"
+        android:text="проблема" />
+</RelativeLayout>

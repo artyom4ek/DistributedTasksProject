@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/admin_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:width="30dp"
+        android:gravity="center_horizontal"
+        android:maxWidth="30dp"
+        android:minWidth="30dp"
+        android:padding="5dp"
+        android:text="@string/user_list_title_id"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/admin_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:width="100dp"
+        android:gravity="center_horizontal"
+        android:maxWidth="100dp"
+        android:minWidth="100dp"
+        android:padding="5dp"
+        android:text="@string/user_list_title_name"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/admin_user_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:text="Statistics"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/admin_user_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:width="30dp"
+        android:gravity="center_horizontal"
+        android:maxWidth="30dp"
+        android:minWidth="30dp"
+        android:padding="5dp"
+        android:text="@string/user_list_title_login"
+        android:textSize="14dp" />
+
+</LinearLayout>

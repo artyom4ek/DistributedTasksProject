@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Управління задачами v1.0</string>
+
+    <!-- Strings related to login -->
+    <string name="login_text">Авторизація</string>
+    <string name="prompt_email">логін</string>
+    <string name="prompt_password">пароль</string>
+    <string name="action_sign_in">Увійти до системи</string>
+    <string name="action_sign_in_short">Увійти</string>
+    <string name="error_invalid_email">Невірний логін</string>
+    <string name="error_invalid_password">Занадто короткий пароль</string>
+    <string name="error_incorrect_password">Невірний пароль</string>
+    <string name="error_field_required">Порожнє поле</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_admin">Панель адміністратора</string>
+
+    <string name="bottom_navigation_tasks">Задачі</string>
+    <string name="bottom_navigation_users">Користувачі</string>
+
+    <string name="user_list_title_id">id</string>
+    <string name="user_list_title_name">ПІП</string>
+    <string name="user_list_title_login">Логін</string>
+    <string name="user_list_title_password">Пароль</string>
+
+    <string name="user_add_button">Додати користувача</string>
+    <string name="user_update_button">Оновити</string>
+    <string name="user_delete_button">Видалити</string>
+
+    <string name="task_add_button">Створити задачу</string>
+
+    <string name="title_activity_test">Створити задачу</string>
+</resources>

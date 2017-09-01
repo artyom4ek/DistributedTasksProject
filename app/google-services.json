@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "617235022343",
+    "firebase_url": "https://distributedtasksproject.firebaseio.com",
+    "project_id": "distributedtasksproject",
+    "storage_bucket": "distributedtasksproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617235022343:android:d74163748d1e9356",
+        "android_client_info": {
+          "package_name": "polytech.distributedtasksproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617235022343-ggrdt8bak6c86m45elva58hsqlvhhvvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "polytech.distributedtasksproject",
+            "certificate_hash": "54d5aaeaae669cfa6235c077da288b5263379c75"
+          }
+        },
+        {
+          "client_id": "617235022343-dmukovkhereufbp0kukmgkvflquab87k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpoQVge4Wz-9eyrvIZMq_HbCyB5x5QSZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617235022343-dmukovkhereufbp0kukmgkvflquab87k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
